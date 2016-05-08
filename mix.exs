@@ -3,7 +3,7 @@ defmodule Velkoz.Mixfile do
 
   def project do
     [app: :velkoz,
-     version: "1.0.0",
+     version: "1.0.1",
      elixir: "~> 1.2",
      build_embedded: Mix.env == :prod,
      start_permanent: Mix.env == :prod,
@@ -32,7 +32,7 @@ defmodule Velkoz.Mixfile do
     [
       {:httpoison, "~> 0.8.0"},
       {:ex_rated, "~> 1.2.1"},
-      {:poison, "~> 2.0"},
+      {:poison, "~> 1.0"},
       {:earmark, "~> 0.1", only: :dev},
       {:ex_doc, "~> 0.11", only: :dev}
   ]
